@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    font-size: 100px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+}
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: clamp(40px, 10vw, 100px);
+    }
+}

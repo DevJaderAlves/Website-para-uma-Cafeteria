@@ -1,0 +1,39 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+}
+.desenvolvedor{
+    color: #c4a47c;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+}
+
+.seta{
+    width: 50px;
+    height: 50px;
+    background-image: url('/seta-para-cima.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+.seta:hover{
+    width: 50px;
+    height: 50px;
+}
